@@ -8,6 +8,9 @@ This is a theme of WonderCMS (https://www.wondercms.com). This theme is a defaul
 4. The theme will be visible in theme list of WonderCMS settings.
 
 # Update
+* 1.1.0 - 2017-02-26
+ - Modify to add supports both WonderCMS-1.x and WonderCMS-2.0.
+ - Bug fix.
 * 1.0.0 - 2017-02-25
  - Initial version
  
