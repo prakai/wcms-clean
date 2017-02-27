@@ -2,7 +2,7 @@ html {
 	min-height: 100%;
 	position: relative;
 }
-a { color: #2f2f2f; }
+a { color: #2f2faf; }
 a, a:hover {
 	text-decoration: none;
 	border-bottom: 1px dotted #fff;
