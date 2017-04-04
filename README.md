@@ -9,7 +9,7 @@ This is a theme of WonderCMS (https://www.wondercms.com). This theme is a defaul
 
 # Update
 * 1.2.0 - 2017-04-04
- - Adds support for WonderCMS-2.0.2.
+ - Edit to support for WonderCMS-2.x.x
 * 1.1.0 - 2017-02-26
  - Adds support for both WonderCMS-1.x and WonderCMS-2.0.
  - Bug fixs.
