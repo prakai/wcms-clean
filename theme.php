@@ -10,11 +10,11 @@
 	<meta name="keywords" content="<?=wCMS::page('keywords')?>">
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="MSSmartTagsPreventParsing" content="false"/>
-	<title><?=wCMS::get('config','site_title')?> - <?=wCMS::page('title')?></title>
+	<title><?=wCMS::get('config','siteTitle')?> - <?=wCMS::page('title')?></title>
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?=wCMS::asset('css/style.css')?>">
 	<?=wCMS::css()?>
+	<link rel="stylesheet" href="<?=wCMS::asset('css/style.css')?>">
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
@@ -31,11 +31,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="./"><?=wCMS::get('config','site_title')?></a>
+				<a class="navbar-brand" href="<?=wCMS::url()?>"><?=wCMS::get('config','siteTitle')?></a>
 			</div>
 			<div class="collapse navbar-collapse" id="navMobile">
 				<ul class="nav navbar-nav">
-					<?=wCMS::navigation()?>
+					<?=wCMS::menu()?>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -47,7 +47,7 @@
 				<div class="col-xs-12 col-sm-8">
 					<div class="visible-xs spacer20"></div>
 					<div>
-						<?=wCMS::page('html')?>
+						<?=wCMS::page('content')?>
 					</div>
 				</div><!-- /.col-lg-8 -->
 				<div class="col-xs-12 col-sm-4">
