@@ -1,6 +1,9 @@
 # wcms-clean
 This is a theme of WonderCMS (https://www.wondercms.com). This theme is a default Bootstrap theme like.
 
+# Demo
+https://wondercms-demo.000webhostapp.com/
+
 # Download and Setup
 1. Download the ZIP file.
 2. Create folder named "clean" in WonderCMS themes folder.
